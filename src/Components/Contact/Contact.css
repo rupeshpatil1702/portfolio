@@ -160,3 +160,54 @@ transition: 0.3s;
         padding: 15px 40px;
     }
 }
+@media (min-width: 250px) and (max-width: 280px) {
+    .contact {
+        width: 100%; /* Use full width */
+        margin: 0; /* Remove margins */
+        padding: 20px; /* Adjust padding */
+        gap: 20px; /* Adjust gap */
+        align-items: center; /* Center align items */
+        text-align: center; /* Center text */
+    }
+
+    .contact-title h1 {
+        font-size: 30px; /* Smaller font size */
+        padding: 0; /* Remove padding */
+    }
+
+    .contact-section {
+        flex-direction: column; /* Stack sections vertically */
+        gap: 20px; /* Adjust gap */
+        align-items: center; /* Center align items */
+    }
+
+    .contact-left h1 {
+        font-size: 20px; /* Smaller font size for title */
+    }
+
+    .contact-left p {
+        font-size: 14px; /* Smaller font size */
+        line-height: 22px; /* Adjust line height */
+    }
+
+    .contact-details {
+        font-size: 16px; /* Adjust font size */
+        text-align: center; /* Center align text */
+    }
+
+    .contact-right label {
+        font-size: 16px; /* Adjust font size */
+    }
+
+    .contact-right input, 
+    .contact-right textarea {
+        width: 90%; /* Full width for inputs */
+        font-size: 16px; /* Smaller font size */
+        margin: 0 auto; /* Center align inputs */
+    }
+
+    .contact-submit {
+        font-size: 16px; /* Smaller font size */
+        padding: 10px 20px; /* Adjust padding */
+    }
+}

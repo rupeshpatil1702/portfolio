@@ -67,3 +67,45 @@
   background-color: red;
   height: 200px;
 }
+@media (min-width: 250px) and (max-width: 280px) {
+    .project {
+        width: 100%; /* Use full width */
+        margin: 0; /* Remove margins */
+        padding: 20px; /* Adjust padding for smaller screens */
+        gap: 20px; /* Adjust gap as needed */
+        display: flex;
+        flex-direction: column; /* Stack items vertically */
+        align-items: center; /* Center items */
+        text-align: center; /* Center all text */
+    }
+
+    .project-name {
+        width: 100%; /* Full width for better alignment */
+        font-size: 10px; /* Smaller font size */
+    }
+
+    .project-title h1 {
+        font-size: 30px; /* Adjust title font size smaller */
+        padding: 0; /* Remove padding */
+    }
+
+    .tech .tech-stack {
+        font-size: 16px; /* Adjust font size */
+    }
+
+    .project-description p {
+        font-size: 14px; /* Adjust font size */
+    }
+
+    .project-check {
+        display: flex;
+        justify-content: center; /* Center the button */
+        width: 100%; /* Full width for button */
+    }
+
+    .project-check button {
+        font-size: 16px; /* Adjust button font size */
+        padding: 10px 20px; /* Adjust padding */
+        border-radius: 5px; /* Adjust border radius */
+    }
+}

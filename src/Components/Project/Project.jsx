@@ -7,7 +7,7 @@ const Project = () => {
     <div id="project" className="project">
       <div className="project-title">
         <h1>Project</h1>
-        <img src={theme_pattern} alt="" />
+        {/* <img src={theme_pattern} alt="" /> */}
       </div>
       <div className="project-build">
         <div className="project-name">Job Portal</div>

@@ -82,3 +82,41 @@
         height: 6px;
     }
 }
+
+@media (min-width: 250px) and (max-width: 280px) {
+    .skills-section {
+        padding: 20px; /* Adjust padding for full width */
+        margin-top: 30px; /* Modify margin as needed */
+        width: 100%; /* Ensure full width */
+    }
+
+    .skills-title h1 {
+        font-size: 30px; /* Smaller font size for title */
+        padding: 0; /* Remove padding */
+    }
+
+    .about-skills {
+        display: flex;
+        flex-direction: column;
+        gap: var(--gap-small);
+        align-items: center; /* Center align skills */
+    }
+
+    .about-skill {
+        width: 100%; /* Full width for skills */
+        margin-top: 10px; /* Adjust spacing */
+    }
+
+    .skill-name-container {
+        justify-content: space-between;
+        width: 100%; /* Full width for skill name container */
+    }
+
+    .skill-name, .skill-percentage {
+        font-size: 16px; /* Smaller font size for name and percentage */
+    }
+
+    .skill-bar {
+        height: 6px; /* Adjust height for smaller screens */
+    }
+}

@@ -90,3 +90,54 @@
         text-align: center; /* Centered text for smaller screens */
     }
 }
+@media (min-width: 250px) and (max-width: 280px) {
+    .about {
+        display: flex;
+        flex-direction: column; /* Stack items vertically */
+        align-items: center; /* Center align all items */
+        justify-content: center; /* Center vertically */
+        margin: 0; /* Remove margins for full width */
+        padding: 20px; /* Adjust padding as needed */
+        width: 100%; /* Full width */
+    }
+
+    .about-title {
+        text-align: center; /* Centered title */
+    }
+
+    .about-title h1 {
+        font-size: 30px; /* Smaller font size for title */
+        padding: 0; /* Remove padding */
+    }
+
+    .about-title img {
+        width: 100px; /* Adjust image size for small screens */
+        margin: 0 auto; /* Center image */
+    }
+
+    .about-sections {
+        display: flex;
+        flex-direction: column; /* Stack sections vertically */
+        align-items: center; /* Center sections */
+        width: 100%; /* Full width */
+    }
+
+    .about-left {
+        max-width: 100%; /* Full width on smaller screens */
+        margin: 0; /* Remove margin */
+        margin-bottom: 10px; /* Space below image */
+    }
+
+    .about-right {
+        flex: 1; /* Allow text to fill available space */
+        display: flex;
+        flex-direction: column; /* Ensure text stacks vertically */
+        align-items: center; /* Center align text */
+        text-align: center; /* Center text */
+    }
+
+    .about-para {
+        font-size: 16px; /* Smaller font size for paragraph */
+        text-align: center; /* Centered text */
+    }
+}

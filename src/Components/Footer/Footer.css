@@ -28,3 +28,23 @@
         margin-bottom: 50px;
     }
 }
+
+
+@media (min-width: 250px) and (max-width: 280px) {
+    .footer {
+        margin: 0; /* Remove margins */
+        padding: 20px; /* Adjust padding if needed */
+        width: 100%; /* Full width */
+        gap: 20px; /* Adjust gap as needed */
+    }
+
+    .footer-bottom {
+        flex-direction: column; /* Stack items vertically */
+        font-size: 14px; /* Adjust font size for smaller screens */
+    }
+
+    .footer-bottom-right {
+        gap: 20px; /* Reduce gap for smaller screens */
+        margin-bottom: 20px; /* Adjust bottom margin */
+    }
+}
