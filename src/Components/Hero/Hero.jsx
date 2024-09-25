@@ -33,10 +33,19 @@ const Hero = () => {
           </AnchorLink>
         </div> */}
         <div className="hero-resume">
-          <a
+          {/* <a
             href="Rupesh Patil.pdf" // Ensure this path is correct
             target="_blank"
             rel="noopener noreferrer"
+            style={{
+              textDecoration: "none",
+              color: "inherit",
+              fontSize: "25px",
+            }}
+          > */}
+          <a
+            href="https://drive.google.com/file/d/1CN8A1gN0FynsMOuPMpO8YuRY8oR6proG/view?usp=drive_link"
+            target="_blank"
             style={{
               textDecoration: "none",
               color: "inherit",
