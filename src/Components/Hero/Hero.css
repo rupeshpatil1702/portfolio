@@ -172,3 +172,38 @@
         width: 100%;
     }
 }
+@media (min-width: 350px) and (max-width: 400px) {
+    .hero {
+        padding: 30px;
+    }
+    .hero img {
+        width: 240px;
+        margin-top: 40px;
+    }
+    .hero h1 {
+        font-size: 40px;
+        width: 90%;
+    }
+    .hero p {
+        font-size: 18px;
+        line-height: 28px;
+        width: 80%;
+    }
+    .hero-action {
+        gap: 20px;
+        font-size: 18px;
+        margin-bottom: 40px;
+    }
+    .hero-connect {
+        padding: 12px 24px;
+        border-radius: 30px;
+    }
+    .hero-resume {
+        padding: 12px 32px;
+        border: 2px solid purple;
+    }
+    .hero-description {
+        font-size: 16px;
+        max-width: 100%;
+    }
+}

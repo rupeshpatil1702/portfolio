@@ -120,3 +120,41 @@
         height: 6px; /* Adjust height for smaller screens */
     }
 }
+@media (min-width: 350px) and (max-width: 400px) {
+    .skills-section {
+        padding: 20px;
+        margin-top: 40px;
+        width: 100%;
+    }
+
+    .skills-title h1 {
+        font-size: 35px;
+        padding: 0;
+    }
+
+    .about-skills {
+        display: flex;
+        flex-direction: column;
+        gap: var(--gap-small);
+        align-items: center;
+    }
+
+    .about-skill {
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    .skill-name-container {
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .skill-name,
+    .skill-percentage {
+        font-size: 18px;
+    }
+
+    .skill-bar {
+        height: 6px;
+    }
+}

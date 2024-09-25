@@ -25,3 +25,15 @@
 .letter:nth-child(n) {
   animation-delay: calc(150ms * n); /* Delay each letter */
 }
+
+@media (min-width: 350px) and (max-width: 400px) {
+  .job {
+    font-size: 24px;
+  }
+  .letter {
+    animation: appear 0.5s forwards;
+  }
+  .letter:nth-child(n) {
+    animation-delay: calc(100ms * n);
+  }
+}

@@ -133,3 +133,37 @@
   border-radius: 5px;
   padding: 5px;
 }
+@media (min-width: 350px) and (max-width: 400px) {
+  .navbar {
+    padding: 10px 20px; /* Adjust padding for smaller screens */
+  }
+
+  .nav-menu {
+    width: 300px; /* Reduce the width of the menu */
+    right: -300px; /* Adjust the initial position */
+  }
+
+  .nav-menu li {
+    font-size: 26px; /* Slightly smaller font size */
+    padding-left: 50px; /* Adjust padding */
+  }
+
+  .nav-mob-close {
+    top: 20px; /* Adjust positioning */
+    left: 250px; /* Adjust positioning */
+    width: 25px; /* Smaller close button */
+  }
+
+  .nav-connect {
+    padding: 10px 20px; /* Adjust padding */
+    font-size: 18px; /* Smaller font size */
+  }
+
+  .gradient-item {
+    font-size: 36px; /* Adjust font size for menu items */
+  }
+
+  .gradient-text {
+    font-size: 40px; /* Adjust logo size */
+  }
+}
