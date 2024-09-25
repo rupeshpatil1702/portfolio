@@ -34,7 +34,7 @@ const Hero = () => {
         </div> */}
         <div className="hero-resume">
           <a
-            href="/Rupesh Patil.pdf" // Ensure this path is correct
+            href="./Rupesh Patil.pdf" // Ensure this path is correct
             target="_blank"
             rel="noopener noreferrer"
             style={{
