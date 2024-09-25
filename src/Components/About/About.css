@@ -1,0 +1,92 @@
+:root {
+    --gap-large: 80px; /* Restored original gap */
+    --gap-small: 20px;
+    --margin-large: 170px; /* Restored original margin */
+    --margin-medium: 50px;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: var(--gap-large);
+    margin: var(--margin-medium) var(--margin-large); /* Restored margins */
+    padding: 50px;
+ /* background-color: gray; */
+}
+ 
+
+.about-title {
+    position: relative;
+    text-align: center; /* Centered title */
+}
+
+.about-title h1 {
+    padding: 0 30px;
+    font-size: 70px;
+    font-weight: 600;
+}
+
+.about-title img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.about-sections {
+    display: flex;
+    justify-content: space-between; /* Space between sections */
+    width: 100%; /* Full width for better layout */
+}
+
+.about-left {
+    flex: 1; /* Take up available space */
+    max-width: 300px; /* Set a max width for the profile image */
+    margin-right: 30px; /* Add space between image and text */
+}
+
+.about-right {
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap-large);
+    flex: 2; /* More space for text */
+}
+
+.about-para {
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap-small);
+    font-size: 24px;
+    font-weight: 500;
+}
+
+@media(max-width: 768px) {
+    .about-title h1 {
+        font-size: 50px;
+        padding: 0;
+    }
+
+    .about-title img {
+        width: 130px;
+        right: -20px;
+    }
+
+    .about-sections {
+        flex-direction: column;
+        align-items: center; /* Centered in smaller screens */
+    }
+
+    .about-left {
+        max-width: 100%; /* Full width on smaller screens */
+        margin-right: 0; /* Reset margin on smaller screens */
+        margin-bottom: 20px; /* Add space below image for smaller screens */
+    }
+
+    .about-para {
+        font-size: 18px;
+        line-height: 32px;
+        text-align: center; /* Centered text for smaller screens */
+    }
+}

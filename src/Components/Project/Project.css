@@ -1,0 +1,69 @@
+.project {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+  margin: 80px 170px;
+  padding: 50px;
+}
+
+.project-title {
+  position: relative;
+}
+.project-title h1 {
+  padding: 0 30px;
+  font-size: 70px;
+  font-weight: 600;
+}
+.project-title img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+}
+
+.project-build .project-name {
+  /* text-align: center; */
+  width: 70%;
+  font-size: 50px;
+  font-weight: 600;
+  background: linear-gradient(270deg, #df8908 10%, #b415ff 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.tech {
+  font-size: 30px;
+  /* font-weight: 600; */
+  color: #da7c25;
+}
+.tech-stack {
+  font-size: 30px;
+  /* font-weight: 600; */
+}
+.project-description p {
+  font-size: 20px;
+}
+.project-check {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.project-check button {
+  border: 2px solid purple;
+  color: white;
+  border-radius: 40px;
+  font-size: 30px;
+  margin-top: 10px;
+  padding: 10px 20px;
+  background: linear-gradient(270deg, #df8908 10%, #b415ff 100%);
+}
+.project-check :hover{
+ 
+    transform: scale(1.1);  
+}
+.demo {
+  background-color: red;
+  height: 200px;
+}

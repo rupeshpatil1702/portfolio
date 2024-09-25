@@ -1,0 +1,84 @@
+:root {
+    --gap-large: 80px;
+    --gap-small: 20px;
+    --margin-large: 170px;
+    --margin-medium: 50px;
+}
+
+.skills-section {
+    margin-top: 60px;
+    padding: 50px 200px;
+        /* padding: 50px; */
+
+}
+
+.skills-title {
+    position: relative;
+    text-align: center;
+}
+
+.skills-title h1 {
+    padding: 0 30px;
+    font-size: 70px;
+    font-weight: 600;
+}
+
+.about-skills {
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap-small);
+}
+
+.about-skill {
+    margin-top: 20px;
+}
+
+.skill-name-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Center align items vertically */
+}
+
+.skill-name {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.skill-percentage {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.skill-bar {
+    width: 100%;
+    height: 8px;
+    background-color: rgb(220, 220, 220);
+    border-radius: 50px;
+    overflow: hidden;
+    margin-top: 5px; /* Space between percentage and bar */
+}
+
+.skill-fill {
+    height: 100%;
+    background: linear-gradient(264deg, #DF8908 -5.09%, #B415FF 106.28%);
+    transition: width 0.3s;
+}
+
+.about-skill:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+@media(max-width: 768px) {
+    .skill-name {
+        font-size: 18px;
+    }
+
+    .skill-percentage {
+        font-size: 18px;
+    }
+
+    .skill-bar {
+        height: 6px;
+    }
+}

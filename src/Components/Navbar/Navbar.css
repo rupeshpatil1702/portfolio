@@ -1,0 +1,135 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background-color: black;
+  padding: 10px 90px;
+}
+
+.navbar .rupesh {
+  font-size: 40px;
+  transition: color 0.3s, transform 0.3s, text-shadow 0.3s;
+}
+
+.navbar .rupesh:hover {
+  color: #b923e1;
+  transform: scale(1.6);
+}
+
+.gradient-text {
+  background: linear-gradient(267deg, #da7c25, #b923e1);
+  -webkit-background-clip: text;
+  font-weight: bold;
+  font-size: 50px;
+  -webkit-text-fill-color: transparent;
+}
+
+.gradient-item {
+  background: linear-gradient(267deg, #da7c25, #b923e1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.nav-menu {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 60px;
+  font-size: 25px;
+}
+
+.nav-connect {
+  padding: 15px 30px;
+  border-radius: 50px;
+  background: linear-gradient(267deg, #da7c25 0.36%, #b923e1 102.06%);
+  font-size: 20px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.nav-connect:hover {
+  transform: scale(1.25);
+}
+
+.nav-menu li {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.anchor-link {
+  text-decoration: none;
+  color: white;
+}
+
+.nav-mob-close {
+  display: none;
+}
+
+.nav-mob-open {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    padding: 10px 50px;
+  }
+
+  .nav-connect {
+    display: none;
+  }
+
+  .nav-mob-open {
+    display: block;
+    position: fixed;
+    right: 30px;
+  }
+
+  .nav-menu {
+    position: fixed;
+    flex-direction: column;
+    align-items: start;
+    top: 0;
+    gap: 30px;
+    background-color: #1f0016;
+    width: 350px;
+    height: 100%;
+    z-index: 2;
+    transition: right 0.5s;
+    right: -350px;
+  }
+
+  .nav-menu li {
+    font-size: 30px;
+    padding-left: 100px;
+    flex-direction: row;
+    gap: 30px;
+  }
+
+  .nav-mob-close {
+    display: block;
+    position: relative;
+    top: 30px;
+    left: 290px;
+    width: 30px;
+  }
+}
+
+.nav-menu li p {
+  transition: color 0.3s, transform 0.3s, background-color 0.3s;
+}
+
+.nav-menu li:hover p {
+  color: #b923e1;
+  transform: scale(1.3);
+  border-radius: 5px;
+  padding: 5px;
+}

@@ -1,0 +1,27 @@
+
+.job {
+  display: inline-flex; /* Allows for better positioning of letters */
+  font-weight: bold;
+  color: #da7c25; /* Change to your preferred color */
+  font-size: 30px;
+  transition: color 0.3s ease;
+}
+
+.letter {
+  display: inline-block;
+  opacity: 0; /* Start invisible */
+  transform: translateY(-20px); /* Start position above */
+  animation: appear 0.5s forwards; /* Animation for each letter */
+}
+
+@keyframes appear {
+  to {
+    opacity: 1; /* Fade in */
+    transform: translateY(0); /* Move to original position */
+  }
+}
+
+/* Animate each letter individually */
+.letter:nth-child(n) {
+  animation-delay: calc(150ms * n); /* Delay each letter */
+}
