@@ -18,13 +18,26 @@ const Hero = () => {
         Hello I'm <span className="rupesh">Rupesh Patil</span>
       </h1>
       <p>
-        And I'm <JobTitle />
+        I'm <JobTitle />
       </p>
       <p className="hero-description">
-        Motivated and hard-working MCA student with experience in Software
-        Development and Web Development . Passionate about exploring new
-        technologies and using them for problem-solving. I enjoy implementing
-        creative solutions to common problems.
+        As a highly motivated and dedicated MCA student, I have cultivated a
+        robust skill set in Software and Web Development. My academic journey
+        has provided me with valuable hands-on experience in various programming
+        languages and frameworks, which I enjoy applying to solve real-world
+        challenges. I am particularly passionate about exploring emerging
+        technologies and their potential to drive innovation and efficiency.
+      </p>
+      <p className="hero-description">
+        I thrive in collaborative environments where I can exchange ideas and
+        learn from others, as I believe that teamwork often leads to the most
+        creative solutions. My enthusiasm for problem-solving motivates me to
+        think outside the box and implement unique strategies that address
+        common issues. I am committed to continuous learning and professional
+        growth, always seeking opportunities to expand my knowledge and skills.
+        Ultimately, I aspire to leverage my technical expertise and creative
+        mindset to contribute positively to the tech industry, delivering
+        impactful solutions that enhance user experiences and drive success.
       </p>
       <div className="hero-action">
         {/* <div className="hero-connect">

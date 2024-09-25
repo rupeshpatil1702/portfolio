@@ -10,8 +10,10 @@
   padding: 50px
 }
 .heroprofile {
+    height: 300px;
+    width: 300px;
   border-radius: 50%;
-  margin-top: 50px;
+  margin-top: 100px;
 }
 .hero .rupesh{
     text-align: center;
@@ -113,7 +115,7 @@
   margin: 10px 0; /* Add some space around the description */
   font-size: 18px; /* Adjust font size */
   color:gray; /* Change text color if needed */
-  max-width: 600px; /* Limit width for better readability */
+  max-width: 100%; /* Limit width for better readability */
   line-height: 1.5; /* Improve line height */
   text-align: center; /* Center the text */
   /* font-weight: bold; */
@@ -174,11 +176,15 @@
 }
 @media (min-width: 350px) and (max-width: 400px) {
     .hero {
+        margin-top: 30px;
         padding: 30px;
     }
     .hero img {
-        width: 240px;
+        width: 200px;
         margin-top: 40px;
+        height: 200px;
+            border-radius: 50%;
+
     }
     .hero h1 {
         font-size: 40px;
@@ -187,7 +193,7 @@
     .hero p {
         font-size: 18px;
         line-height: 28px;
-        width: 80%;
+        width: 100%;
     }
     .hero-action {
         gap: 20px;
@@ -205,5 +211,7 @@
     .hero-description {
         font-size: 16px;
         max-width: 100%;
+text-align: left;
+
     }
 }

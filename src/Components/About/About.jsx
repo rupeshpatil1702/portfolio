@@ -113,7 +113,7 @@ const About = () => {
   return (
     <div id="about" className="about">
       <div className="about-title">
-        <h1>About Me</h1>
+        <h1>About  </h1>
         {/* <img src={theme_pattern} alt="Theme pattern" /> */}
       </div>
       <div className="about-sections">
@@ -127,12 +127,23 @@ const About = () => {
         <div className="about-right">
           <div className="about-para">
             <p>
-              Hi! I am Rupesh Patil, an MCA student from Pimpri Chinchwad
-              College of Engineering, Pune. I have experience in software and
-              web development. I am passionate about exploring new technologies
-              and implementing creative solutions to common problems.
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis exercitationem quos, fugiat impedit maxime ut, pariatur praesentium autem distinctio eaque eius similique, ipsam iure non mollitia necessitatibus aliquam minus! Quia!lorem100
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit non aperiam nesciunt mollitia voluptatibus saepe iure nostrum, aut esse deserunt vero, omnis neque consequuntur sequi necessitatibus eligendi quia cumque beatae. Optio cupiditate unde labore praesentium rerum natus rem quaerat enim facilis, provident est fugit mollitia obcaecati magni a ut non earum repellendus beatae similique at corporis assumenda excepturi? Odio error provident quisquam exercitationem expedita, veniam nobis eum aut vel voluptatem impedit numquam repudiandae. Consectetur laboriosam rem soluta voluptatem explicabo odit quidem impedit incidunt, officia sunt culpa reprehenderit magni quod! Quod voluptatem ea ab consectetur officia? Consectetur voluptates vitae sapiente praesentium.
+              I am an MCA student with a strong foundation in software
+              development and a passion for problem-solving. Proficient in Java,
+              SQL, React, Node.js, and Python, I enjoy exploring the
+              intersection of technology and innovation. My academic journey has
+              equipped me with a solid understanding of Data Structures and
+              Algorithms (DSA), enabling me to tackle complex challenges
+              efficiently.
+            </p>
+            <p>
+              In my free time, I love to sharpen my coding skills by solving
+              problems on platforms like LeetCode, GeeksforGeeks, and
+              HackerRank. These platforms not only enhance my analytical
+              thinking but also prepare me for real-world software development
+              challenges. I am eager to apply my skills to impactful projects
+              and contribute to a collaborative team environment, where
+              creativity and technical expertise come together to build
+              effective solutions.
             </p>
           </div>
         </div>

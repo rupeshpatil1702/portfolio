@@ -3,9 +3,13 @@
     --gap-small: 20px;
     --margin-large: 170px; /* Restored original margin */
     --margin-medium: 50px;
+    
 }
 
 .about {
+  background-color: #333333; /* Dark Gray */
+        border: 1px solid white;
+
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -189,6 +193,6 @@
 
     .about-para {
         font-size: 16px;
-        text-align: center;
+        text-align: left;
     }
 }
