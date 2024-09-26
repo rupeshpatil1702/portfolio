@@ -58,7 +58,7 @@ const Project = () => {
           </button>
         </div>
       </div>
-
+      
       <div className="project-build">
         <div className="project-name">Crop Recommendation System</div>
         <span className="tech">Tech Stack :- </span>
@@ -102,6 +102,39 @@ const Project = () => {
           </button>
         </div>
       </div>
+
+      <div className="project-build">
+        <div className="project-name">Crypto Market Application</div>
+        <span className="tech">Tech Stack :- </span>
+        <span className="tech-stack">React Js | HTML | CSS | REST APIs</span>
+        <div className="project-description">
+          <p>
+            The Crypto Market Application provides real-time data and analytics
+            for various cryptocurrencies. Built using ReactJS for dynamic
+            content rendering and state management, the application allows users
+            to monitor the latest cryptocurrency prices, market capitalization,
+            and trends with the help of API integration. The interface, designed
+            with HTML and CSS, is user-friendly and responsive across devices.
+            The application also visually displays historical market trends
+            through dynamic graphs, making it a comprehensive tool for tracking
+            cryptocurrency performance.
+          </p>
+        </div>
+        <div className="project-check">
+          <button
+            onClick={() =>
+              window.open(
+                "https://github.com/rupeshpatil1702/cryptoapp.git",
+                "_blank"
+              )
+            }
+          >
+            Check Now
+          </button>
+        </div>
+      </div>
+
+      
     </div>
   );
 };

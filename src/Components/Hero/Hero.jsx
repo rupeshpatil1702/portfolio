@@ -57,7 +57,7 @@ const Hero = () => {
             }}
           > */}
           <a
-            href="https://drive.google.com/file/d/1CN8A1gN0FynsMOuPMpO8YuRY8oR6proG/view?usp=drive_link"
+            href="/portfolio/Rupesh Patil.pdf"
             target="_blank"
             style={{
               textDecoration: "none",
