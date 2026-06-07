@@ -4,21 +4,27 @@ import theme_pattern from "../../assets/theme_pattern.svg";
 
 const Skills = () => {
   const skills = [
-    { name: "Java", proficiency: 90 },
-    { name: "Data Structures and Alogrithm", proficiency: 95 },
+    { name: "Core ABAP", proficiency: 90 },
+    { name: "OO ABAP", proficiency: 70 },
+    { name: "CDS View", proficiency: 75 },
+    { name: "ODATA", proficiency: 80 },
+    { name: "SAP UI5", proficiency: 60 },
+    { name: "Reports", proficiency: 90 },
+    { name: "Data Dictionary", proficiency: 80 },
+    { name: "SAP Script", proficiency: 70 },
+    { name: "SAP Smart Forms", proficiency: 90 },
+    { name: "SAP Adobe Forms", proficiency: 80 },
+    { name: "BADI", proficiency: 80 },
+    { name: "User Exits", proficiency: 70 },
+    { name: "Customer Exits", proficiency: 60 },
     { name: "SQL", proficiency: 80 },
-    { name: "HTML & CSS", proficiency: 80 },
-    { name: "Python", proficiency: 90 },
-    { name: "JavaScript", proficiency: 60 },
-    { name: "Node Js", proficiency: 60 },
-    { name: "React Js", proficiency: 60 },
   ];
 
   return (
     <div id="skills" className="skills-section">
       <div className="skills-title">
         <h1>Skills</h1>
-       </div>
+      </div>
       <div className="parts">
         <div className="about-skills">
           {skills.map((skill) => (

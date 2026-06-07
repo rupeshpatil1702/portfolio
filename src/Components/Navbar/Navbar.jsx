@@ -18,7 +18,7 @@
 //     menuRef.current.style.right = "-350px";
 //   };
 //   return (
-    
+
 //       <div className="navbar">
 //         <div className="rupesh">
 //           <p>
@@ -113,7 +113,6 @@
 
 // export default Navbar;
 
-
 import React, { useState, useRef, useEffect } from "react";
 import "./Navbar.css";
 import logo from "../../assets/logo.svg";
@@ -135,7 +134,8 @@ const Navbar = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      const sections = ["home", "about", "skills", "project", "contact"];
+      // const sections = ["home", "about", "skills", "project", "contact"];
+      const sections = ["home", "about", "skills", "experience", "project", "contact"];
       let currentSection = "home";
       sections.forEach((section) => {
         const element = document.getElementById(section);
@@ -170,7 +170,8 @@ const Navbar = () => {
           alt=""
           className="nav-mob-close"
         />
-        {["home", "about", "skills", "project", "contact"].map((item) => (
+        {/* {["home", "about", "skills", "project", "contact"].map((item) => ( */}
+        {["home", "about", "skills", "experience", "project", "contact"].map((item) => (
           <li key={item}>
             <AnchorLink className="anchor-link" href={`#${item}`}>
               <p

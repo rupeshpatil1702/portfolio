@@ -21,23 +21,29 @@ const Hero = () => {
         I'm <JobTitle />
       </p>
       <p className="hero-description">
-        As a highly motivated and dedicated MCA student, I have cultivated a
-        robust skill set in Software and Web Development. My academic journey
-        has provided me with valuable hands-on experience in various programming
-        languages and frameworks, which I enjoy applying to solve real-world
-        challenges. I am particularly passionate about exploring emerging
-        technologies and their potential to drive innovation and efficiency.
+        I am an SAP ABAP Consultant with 1 year of experience in designing,
+        developing, and supporting SAP solutions. My expertise includes ABAP
+        development, Reports, Enhancements, Forms, OData Services, CDS Views,
+        SAP UI5, and SAP Integration technologies. I enjoy building efficient,
+        scalable, and business-focused applications that help organizations
+        streamline their processes and improve productivity.
       </p>
       <p className="hero-description">
-        I thrive in collaborative environments where I can exchange ideas and
-        learn from others, as I believe that teamwork often leads to the most
-        creative solutions. My enthusiasm for problem-solving motivates me to
-        think outside the box and implement unique strategies that address
-        common issues. I am committed to continuous learning and professional
-        growth, always seeking opportunities to expand my knowledge and skills.
-        Ultimately, I aspire to leverage my technical expertise and creative
-        mindset to contribute positively to the tech industry, delivering
-        impactful solutions that enhance user experiences and drive success.
+        I am passionate about solving complex business challenges through
+        technology and continuously expanding my knowledge of the SAP ecosystem.
+        I thrive in collaborative environments where I can work closely with
+        functional consultants, developers, and stakeholders to deliver
+        high-quality solutions. With a strong commitment to learning and
+        professional growth, I am currently enhancing my expertise in modern SAP
+        technologies such as RAP, CAP, SAP BTP, and AI-powered enterprise
+        applications. My goal is to leverage technology to create innovative,
+        reliable, and impactful solutions that drive business success.
+      </p>
+      <p className="hero-description">
+        Beyond SAP development, I have a keen interest in Artificial
+        Intelligence and Enterprise Automation. I enjoy exploring how AI can be
+        integrated with SAP systems to create intelligent business applications
+        and improve decision-making processes.
       </p>
       <div className="hero-action">
         {/* <div className="hero-connect">

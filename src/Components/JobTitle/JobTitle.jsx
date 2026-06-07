@@ -3,10 +3,9 @@ import "./JobTitle.css";
 
 const JobTitle = () => {
   const titles = [
-    "&nbsp;&nbsp;Frontend &nbsp;&nbsp;Developer",
-    "&nbsp;&nbsp;MERN &nbsp;&nbsp;Stack&nbsp;&nbsp; Developer",
-    "&nbsp;&nbsp;Java &nbsp;&nbsp;Developer",
-    "&nbsp;&nbsp;Web&nbsp;&nbsp;Developer", // Add non-breaking space here
+    // "&nbsp;&nbsp;Frontend &nbsp;&nbsp;Developer",
+    "&nbsp;&nbsp;SAP &nbsp;&nbsp;ABAP &nbsp;&nbsp;Consultant",
+ 
   ];
   const [currentTitle, setCurrentTitle] = useState("");
   const [index, setIndex] = useState(0);

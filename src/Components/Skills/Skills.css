@@ -8,8 +8,7 @@
 .skills-section {
     margin-top: 60px;
     padding: 50px 200px;
-        /* padding: 50px; */
-
+    box-sizing: border-box;
 }
 
 .skills-title {
@@ -36,7 +35,7 @@
 .skill-name-container {
     display: flex;
     justify-content: space-between;
-    align-items: center; /* Center align items vertically */
+    align-items: center;
 }
 
 .skill-name {
@@ -55,7 +54,7 @@
     background-color: rgb(220, 220, 220);
     border-radius: 50px;
     overflow: hidden;
-    margin-top: 5px; /* Space between percentage and bar */
+    margin-top: 5px;
 }
 
 .skill-fill {
@@ -69,7 +68,19 @@
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
 
-@media(max-width: 768px) {
+@media (max-width: 768px) {
+    .skills-section {
+        padding: 20px;
+        margin-top: 40px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .skills-title h1 {
+        font-size: 50px;
+        padding: 0;
+    }
+
     .skill-name {
         font-size: 18px;
     }
@@ -85,46 +96,50 @@
 
 @media (min-width: 250px) and (max-width: 280px) {
     .skills-section {
-        padding: 20px; /* Adjust padding for full width */
-        margin-top: 30px; /* Modify margin as needed */
-        width: 100%; /* Ensure full width */
+        padding: 20px;
+        margin-top: 30px;
+        width: 100%;
+        box-sizing: border-box;
     }
 
     .skills-title h1 {
-        font-size: 30px; /* Smaller font size for title */
-        padding: 0; /* Remove padding */
+        font-size: 30px;
+        padding: 0;
     }
 
     .about-skills {
         display: flex;
         flex-direction: column;
         gap: var(--gap-small);
-        align-items: center; /* Center align skills */
+        align-items: center;
     }
 
     .about-skill {
-        width: 100%; /* Full width for skills */
-        margin-top: 10px; /* Adjust spacing */
+        width: 100%;
+        margin-top: 10px;
     }
 
     .skill-name-container {
         justify-content: space-between;
-        width: 100%; /* Full width for skill name container */
+        width: 100%;
     }
 
-    .skill-name, .skill-percentage {
-        font-size: 16px; /* Smaller font size for name and percentage */
+    .skill-name,
+    .skill-percentage {
+        font-size: 16px;
     }
 
     .skill-bar {
-        height: 6px; /* Adjust height for smaller screens */
+        height: 6px;
     }
 }
+
 @media (min-width: 350px) and (max-width: 400px) {
     .skills-section {
         padding: 20px;
         margin-top: 40px;
         width: 100%;
+        box-sizing: border-box;
     }
 
     .skills-title h1 {
